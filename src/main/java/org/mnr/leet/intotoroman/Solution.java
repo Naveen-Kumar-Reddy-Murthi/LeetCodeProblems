@@ -97,7 +97,7 @@ public class Solution {
             String key = entry.getKey();
             int value = entry.getValue();
             while (num / value > 0) {
-                Integer.MAX_VALUE
+               // Integer.MAX_VALUE;
                 res.append(new String(new char[num / value]).replace("\0", key));
                 num = num % value;
             }
