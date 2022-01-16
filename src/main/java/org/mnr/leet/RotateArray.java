@@ -26,5 +26,6 @@ public class RotateArray {
             start++;
             end--;
         }
+        System.out.println(Arrays.toString(nums));
     }
 }
