@@ -11,6 +11,7 @@ public class RotateArray {
 
     public static void rotate2(int[] nums, int k) {
          k= k % nums.length;
+        System.out.println("k = "+k);
         reverse(nums, 0,nums.length-1);
         reverse(nums, 0,k-1);
         reverse(nums, k,nums.length-1);
