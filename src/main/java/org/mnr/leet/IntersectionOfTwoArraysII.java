@@ -4,7 +4,7 @@ import java.util.*;
 
 public class IntersectionOfTwoArraysII {
     public static void main(String[] args) {
-        //https://leetcode.com/problems/intersection-of-two-arrays-ii/
+        //https://leetcode.com/problems/intersection-of-tw.o-arrays-ii/
         int[] nums1 = new int[]{1,2,2,1};
         int[] nums2 = new int[]{2,2};
         int[] nums3 = new int[]{4,9,5};

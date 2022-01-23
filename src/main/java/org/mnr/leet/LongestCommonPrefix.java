@@ -3,8 +3,8 @@ package org.mnr.leet;
 public class LongestCommonPrefix {
     public static void main(String[] args) {
         System.out.println(findLongestCommonPrefix( new String[] {"flower","flow","flight"}));
-       // System.out.println(findLongestCommonPrefix(new String[] {"dog","racecar","car"}));
-        //System.out.println(findLongestCommonPrefix(new String[] {"abcdefghi","abcdefgh","abcdefg","abcdef","abcde"}));
+        System.out.println(findLongestCommonPrefix(new String[] {"dog","racecar","car"}));
+        System.out.println(findLongestCommonPrefix(new String[] {"abcdefghi","abcdefgh","abcdefg","abcdef","abcde"}));
 
     }
 
